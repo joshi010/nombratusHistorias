@@ -356,5 +356,6 @@ footer{
         width: 100%;
         position: fixed;
         top: calc(100% - 70px);
+        transition: 0.2s;
     }
 }
