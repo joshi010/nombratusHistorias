@@ -10,9 +10,11 @@ ham.onclick = () =>{
 // funcion secreta
 let tr = document.querySelector('#troll');
 let img = document.querySelector('.media');
-let img1 = './imgs/carps/IMG_1082.JPG';
-let img2 = './imgs/carps/IMG_1104.JPG';
-let img3 = './imgs/carps/IMG_1108.JPG';
+let img1 = './imgs/carps/2.png';
+let img2 = './imgs/carps/3.png';
+let img3 = './imgs/carps/5.png';
+let img4 = './imgs/carps/6.png'
+let img5 = './imgs/carps/7.png'
 let hihi = './imgs/carps/WhatsApp Image 2022-02-12 at 2.21.59 AM.jpeg';
 
 let count = 0;
@@ -31,5 +33,7 @@ tr.onclick = () =>{
         document.querySelector('#num').src = img1;
         document.querySelector('#num1').src = img2;
         document.querySelector('#num2').src = img3;
+        document.querySelector('#num3').src = img4;
+        document.querySelector('#num4').src = img5;
     }
 }
