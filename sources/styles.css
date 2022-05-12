@@ -300,6 +300,16 @@ footer{
     justify-content: center;
 }
 
+@media only screen and (max-width: 1830px){
+    .img-i{
+        width: 320px;
+    }
+
+    .blog-flex{
+        overflow: scroll;
+    }
+}
+
 @media only screen and (max-width: 1500px){
     .fotos{
         height: auto;
